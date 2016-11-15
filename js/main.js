@@ -201,7 +201,7 @@ function showErrors(form, errors) {
 
 		form_item.addClass('error');
 		if( errors[i] == 'empty' )
-			error_message += '<div class="error">Field '+form_item_name+' is required</div>';
+			error_message += '<div class="error">'+form_item_name+' es requerido</div>';
 		else
 			error_message += '<div class="error">You entered an invalid email</div>';
 	}
