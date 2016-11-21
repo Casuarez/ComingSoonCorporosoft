@@ -3,6 +3,11 @@
 @media (max-height: 800px) {
 
 }
+@media (max-width: 1440px)	{
+	.mainarea{
+		min-height: 88%;
+	}
+}
 @media (max-width: 1366px) {
 	.twitter-container {
 		top: 25px;
@@ -30,6 +35,11 @@
 	.clock-container {
 		margin-bottom: 20px;
 	}
+	.mainarea p {
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+}
 	.mainarea h3 {
 		margin-bottom: 15px;
 		font-size: 35px;
@@ -82,6 +92,7 @@
 	.mainarea {
 		height: auto;
 		display: block;
+		min-height: 76%;
 	}
 	.close {
 		top: 75px;
@@ -191,7 +202,62 @@
 		text-decoration: underline;
 	}
 }
-
+@media (max-width: 736px){
+	.show_toggle {
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	    right: 19px;
+	    text-align: right;
+	}
+	.main-menu-container {
+	    height: 0;
+	    left: 0;
+	    right: 0;
+	    z-index: 1999;
+	    top: 32px;
+	}
+	.mainarea {
+		padding-top: 0px;
+	    min-height: 72%;
+	}
+	.mainarea h3 {
+	    margin-bottom: 0px;
+	    font-size: 32px;
+	    line-height: 24px;
+	}
+	.maintitle {
+    	padding-top: 140px;
+    	font-size: 1.1em;
+	}
+}
+@media (max-width: 414px){
+	.maintitle {
+    	padding-top: 105px;
+    	font-size: 1.2em;
+	}
+	.mainarea {
+	    padding-top: 50px;
+	    min-height: 74%;
+	    display: table;
+	}
+	.mainarea h3 {
+	    margin-bottom: -14px;
+	    font-size: 26px;
+	    line-height: 31px;
+	}
+	.mainarea p {
+	    margin-bottom: 15px;
+	    font-size: 16px;
+	    line-height: 18px;
+	}
+	.mainarea h2 {
+	    padding-top: 22px;
+	    font-size: 35px;
+	    line-height: 40px;
+	    margin-bottom: 20px;
+	}
+}
 @media (max-width: 351px) {
   #time-container {
   	width: 280px;
