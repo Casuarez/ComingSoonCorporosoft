@@ -14,11 +14,17 @@
 			'margin-top' : '-' + parseInt((item.height() / 2), 0) + 'px'
 		}).fadeIn();
 	}
+	function vertCenter1(item) {
+		"use strict";
+		item.css({
+			'margin-top' : '-' + parseInt((item.height()/1.5), 0) + 'px'
+		}).fadeIn();
+	}
 
 	jQuery(window).load(function(){
 		vertCenter($('.itemwrap > li > div'));
 		vertCenter($('#thumbs'));
-		vertCenter($('#clock'));
+		vertCenter1($('#clock'));
 		// vertCenter($('#demo_thumbs'));
 	});
 

@@ -183,13 +183,19 @@ body {
 	position: relative;
 }
 .maintitle{
+	position: relative;
 	text-align: center;
 	font-weight: 300;
 	vertical-align: middle;
 	width: 100%;
-	z-index: 50;
+	z-index: 1000;
+	color:#eee;
+	font-size:1.5em;
+	height: 10%;
+	margin-top: -32px;
 }
-.maintittle-titulo{
+.maintitle-titulo{
+	padding-top: 60px;
 	font-family:'Videophreak'!important;
 	font-weight:normal;
 }
@@ -198,7 +204,7 @@ body {
 	display: table;
 	font-weight: 300;
 	/*height: 100%;*/
-	min-height: 72%;
+	min-height: 82%;
 	position: relative;
 	vertical-align: middle;
 	width: 100%;
@@ -400,7 +406,7 @@ body {
 }
 .clock-container {
 	text-align: center;
-	margin-top: -192px;
+	margin-top: -203px;
 	margin-bottom: 0px;
 }
 .subscribe {
@@ -444,12 +450,13 @@ body {
 @media( max-width: 768px ) {
 	.subscribe {
 		width: 100%;
-		max-width: 320px;
+		max-width: 362px;
+		margin-top: 23px
 	}
 	.subscribe input[type="email"] {
 		padding: 0 10px;
 		width: 63%;
-		font-size: 12px;
+		font-size: 16px;
 	}
 	.subscribe input[type="submit"] {
 		padding: 0 10px;
@@ -656,6 +663,7 @@ body {
 	display: inline-block;
 	width: 26px;
 	height: 2px;
+	margin-top: 32px;
 	background: rgba(255, 255, 255, .8);
 }
 .show_toggle a:after,
@@ -706,8 +714,8 @@ body {
 .main-menu-container {
 	position: absolute;
 	left: 100px;
-	bottom: 50px;
-	z-index: 999;
+	bottom: 0px;
+	z-index: 1001;
 }
 .main-menu-container .main-menu {
 	margin: 0;
@@ -793,8 +801,8 @@ body {
 	top: 0;
 	left: 0;
 	right: 0;
-	opacity: 0.5;
-	background-color: #000;
+	opacity: 0.6;
+	background-color: #3E4095;
 }
 
 /*------------------------------------------------------------------
