@@ -265,23 +265,41 @@
 	}
 }
 @media (max-width: 375px){
+	body {
+	    min-height: 600px;
+	}
 	.maintitle {
 	    padding-top: 0px;
 	    font-size: 1.2em;
 	}
 	.mainarea {
 	    padding-top: 104px;
-	    min-height: 82%;
+	    min-height: 74%;
 	    display: block
 	}
 	.close {
 	    top: 141px;
 	}
+	.subscribe {
+	    width: 88%;
+	    max-width: 362px;
+	    margin-top: 23px;
+	}
+	.subscribe input[type="email"] {
+	    width: 58%;
+	    font-size: 15px;
+	}
+	.subscribe input[type="submit"] {
+    	padding: 0 4px;
+	}
 }
 @media (max-width: 351px) {
+	body {
+	    min-height: 489px;
+	}
 	.mainarea {
 	    padding-top: 104px;
-	    min-height: 80%;
+	    min-height: 77%;
 	    display: block
 	}	
   	.maintitle {
@@ -295,9 +313,17 @@
   	#clock{
   		top:87%;
   	}
+  	.subscribe {
+	    width: 88%;
+	    max-width: 362px;
+	    margin-top: 23px;
+	}
   	.subscribe input[type="email"] {
-	    width: 59%;
-	    font-size: 18px;
+	    width: 58%;
+	    font-size: 15px;
+	}
+	.subscribe input[type="submit"] {
+    	padding: 0 4px;
 	}
 	.close {
 	    top: 117px;
