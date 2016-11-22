@@ -258,10 +258,42 @@
 	    margin-bottom: 20px;
 	}
 }
+@media (max-width: 375px){
+	.maintitle {
+	    padding-top: 0px;
+	    font-size: 1.2em;
+	}
+	.mainarea {
+	    padding-top: 104px;
+	    min-height: 82%;
+	    display: block
+	}
+	.close {
+	    top: 141px;
+	}
+}
 @media (max-width: 351px) {
-  #time-container {
-  	width: 280px;
-  	height: 280px;
-  }
-
+	.mainarea {
+	    padding-top: 104px;
+	    min-height: 80%;
+	    display: block
+	}	
+  	.maintitle {
+	    padding-top: 0px;
+	    font-size: 1em;
+	}
+  	#time-container {
+  		width: 280px;
+  		height: 280px;
+  	}
+  	#clock{
+  		top:87%;
+  	}
+  	.subscribe input[type="email"] {
+	    width: 59%;
+	    font-size: 18px;
+	}
+	.close {
+	    top: 117px;
+	}
 }
