@@ -231,15 +231,15 @@
     	font-size: 1.1em;
 	}
 }
-@media (max-width: 414px){
+@media (max-width: 425px){
 	.maintitle {
-    	padding-top: 105px;
-    	font-size: 1.2em;
+	    padding-top: 0px;
+	    font-size: 1.5em;
 	}
 	.mainarea {
-	    padding-top: 50px;
-	    min-height: 74%;
-	    display: table;
+	    padding-top: 97px;
+	    min-height: 68%;
+	    display: block;
 	}
 	.mainarea h3 {
 	    margin-bottom: -14px;
@@ -248,7 +248,7 @@
 	}
 	.mainarea p {
 	    margin-bottom: 15px;
-	    font-size: 16px;
+	    font-size: 19px;
 	    line-height: 18px;
 	}
 	.mainarea h2 {
@@ -256,6 +256,12 @@
 	    font-size: 35px;
 	    line-height: 40px;
 	    margin-bottom: 20px;
+	}
+	#clock{
+  		top:86%;
+  	}
+  	.close {
+	    top: 129px;
 	}
 }
 @media (max-width: 375px){
